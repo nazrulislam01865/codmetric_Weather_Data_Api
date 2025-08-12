@@ -1,0 +1,28 @@
+{
+  "name": "codmetric_weather_data_api",
+  "version": "1.0.0",
+  "description": "This is a weather app backend which fetch data from open weather using express",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nazrulislam01865/codmetric_Weather_Data_Api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nazrulislam01865/codmetric_Weather_Data_Api/issues"
+  },
+  "homepage": "https://github.com/nazrulislam01865/codmetric_Weather_Data_Api#readme",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.1",
+    "nodemon": "^3.1.10"
+  }
+}
